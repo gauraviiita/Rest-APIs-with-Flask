@@ -30,3 +30,14 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ```
  sudo docker run hello-world
 ```
+
+# Now download the files present in this folder and run the following commands 
+
+```
+docker build -t rest-apis-flask-python .
+docker ps
+docker images
+docker run -d -p 5000:5000 --name my-flask-app rest-apis-flask-python
+docker stop my-flask-app
+docker compose up
+```
