@@ -3,7 +3,7 @@
 Install Flask in a virtual environment.
 
 Create an anaconda environment.
-
+```
 $ conda create -n flask_venv 
 
 Then install Flask
@@ -17,3 +17,4 @@ $ python app.py
 or
 
 $ flask run
+```
