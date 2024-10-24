@@ -13,3 +13,7 @@ $ pip install flask
 Download the BMI calculator folder and run the app.py file.
 
 $ python app.py
+
+or
+
+$ flask run
