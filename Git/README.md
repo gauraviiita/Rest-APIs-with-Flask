@@ -5,7 +5,7 @@
 Add files to git 
 
 ```
-  $ git init
+$ git init
 
 $ git add .
 
