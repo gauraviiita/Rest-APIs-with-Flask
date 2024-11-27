@@ -25,4 +25,10 @@
 
 ```
   sudo mysql_secure_installation
+
+If the above command does not help you to set the password follow this command.
+
+  sudo mysql
+
+  ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 ```
