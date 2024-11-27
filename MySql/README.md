@@ -32,3 +32,10 @@ If the above command does not help you to set the password follow this command.
 
   ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 ```
+
+**All done! Let's working now**
+
+```
+  sudo mysql -u root -p
+```
+
