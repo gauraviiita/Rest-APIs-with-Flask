@@ -39,3 +39,15 @@ If the above command does not help you to set the password follow this command.
   sudo mysql -u root -p
 ```
 
+
+## Install mysql-workbench-community
+
+Search mysql-workbench-community on Google
+
+https://snapcraft.io/mysql-workbench-community
+
+Run the following command
+
+```
+  sudo snap install mysql-workbench-community
+```
