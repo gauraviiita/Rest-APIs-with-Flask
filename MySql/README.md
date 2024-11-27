@@ -55,3 +55,14 @@ Run the following command.
 Search locally MySQL workbench
 
 **All done! Let's work now**
+
+# Create a database
+
+```
+  sudo mysql -u root -p
+
+  CREATE DATABASE database_name;
+  SHOW DATABASES;
+
+  
+```
