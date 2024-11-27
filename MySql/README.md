@@ -63,6 +63,34 @@ Search locally MySQL workbench
 
   CREATE DATABASE database_name;
   SHOW DATABASES;
+```
 
-  
+## Login to MySQL CLI:
+```
+  sudo mysql -u root -p
+```
+
+**Lists all databases.**
+```
+  SHOW DATABASES;
+```
+
+**Selects a specific database.**
+```
+  USE your_database;
+```
+
+**Lists all tables in the selected database.**
+```
+  SHOW TABLES;
+```
+
+**Shows the structure of a specific table.**
+```
+  DESCRIBE table_name;
+```
+
+**Fetches all data from a table.**
+```
+  SELECT * FROM table_name;
 ```
