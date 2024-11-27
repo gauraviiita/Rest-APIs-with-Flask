@@ -33,21 +33,25 @@ If the above command does not help you to set the password follow this command.
   ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 ```
 
-**All done! Let's working now**
+**6. Open mysql using password**
 
 ```
   sudo mysql -u root -p
 ```
 
 
-## Install mysql-workbench-community
+## 7. Install MySQL-workbench-community
 
 Search mysql-workbench-community on Google
 
 https://snapcraft.io/mysql-workbench-community
 
-Run the following command
+Run the following command.
 
 ```
   sudo snap install mysql-workbench-community
 ```
+
+Search locally MySQL workbench
+
+**All done! Let's work now**
