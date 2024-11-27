@@ -15,3 +15,14 @@
 ```
   sudo systemctl status mysql.service
 ```
+**4. Start using mysql in ubuntu**
+
+```
+  sudo mysql
+```
+
+**5. Set the credentials**
+
+```
+  sudo mysql_secure_installation
+```
